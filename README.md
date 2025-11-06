@@ -79,18 +79,18 @@ npm install
 Create a .env file inside /backend and add:
 
 env
-Copy code
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 Start the backend server:
 
 bash
-Copy code
+
 npm run dev
 🔹 Frontend Setup
 bash
-Copy code
+
 cd ../frontend
 npm install
 npm run dev
@@ -106,32 +106,7 @@ Video Player	Like, Dislike, and comment on videos
 Channel Page	Manage your videos (CRUD)
 Comments	Add, Edit, Delete comments dynamically
 
-🧾 Sample Data Format
-Video
-json
-Copy code
-{
-  "videoId": "video01",
-  "title": "Learn React in 30 Minutes",
-  "thumbnailUrl": "https://example.com/thumbnails/react30min.png",
-  "videoUrl": "https://example_video.com",
-  "description": "A quick tutorial to get started with React.",
-  "channelId": "channel01",
-  "uploader": "user01",
-  "views": 15200,
-  "likes": 1023,
-  "uploadDate": "2024-09-20"
-}
-User
-json
-Copy code
-{
-  "userId": "user01",
-  "username": "JohnDoe",
-  "email": "john@example.com",
-  "password": "hashedPassword123",
-  "channels": ["channel01"]
-}
+
 🧮 Project Rubric Coverage
 ✅ Home Page UI/UX — Header, Sidebar, Video Grid
 ✅ User Authentication — JWT + Validation
@@ -146,8 +121,7 @@ Copy code
 🧑‍💻 Developer
 Name: Harshit Jaiswal
 College: VIT (2025 Batch)
-Role: Full Stack Developer
-GitHub: github.com/HarshitJaiswal
+GitHub: github.com/Harshit-jai
 
 🏁 Final Notes
 Built using ES Modules (import/export)
@@ -159,16 +133,3 @@ MongoDB seeded with sample data for testing
 Both frontend & backend fully functional
 
 Submitted as part of Internshala MERN Stack Capstone Project
-
-pgsql
-Copy code
-
----
-
-✅ **Now just do this:**
-1. Open VS Code → open your project folder.  
-2. Create a file named `README.md` (if not already there).  
-3. Paste everything above.  
-4. Save it and push to GitHub (`git add . && git commit -m "Added final README" && git push origin main`).
-
-Would you like me to also generate a few short commit messages (10-15 more) to make your history look natural?
